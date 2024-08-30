@@ -20,14 +20,7 @@ const admin = require('firebase-admin')
 
 // Your Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCATu4rYbBXr7ZrqyxBiYN1a27Z27jQrGM",
-    authDomain: "mandai-4d99d.firebaseapp.com",
-    databaseURL: "https://mandai-4d99d-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "mandai-4d99d",
-    storageBucket: "mandai-4d99d.appspot.com",
-    messagingSenderId: "60044607099",
-    appId: "1:60044607099:web:11210154be0e6494a96cde",
-    measurementId: "G-W5BML6XL7M"
+
   };
 
 // Initialize Firebase
