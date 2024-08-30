@@ -94,7 +94,7 @@ function Projects() {
         console.error("Booking failed");
         return;
       }
-      emailjs.sendForm('service_4soykrc', 'template_c2uq1yh', form.current,'aoDRpb3cUrp3tYH93' );
+      emailjs.sendForm( );
       
       // Make a POST request to /nare endpoint
       const nareResponse = await fetch("/nare", {
@@ -130,7 +130,7 @@ function Projects() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_c8z8ynf', 'template_c2uq1yh', form.current, 'aoDRpb3cUrp3tYH93')
+    emailjs.sendForm()
       .then((result) => {
           console.log(result.text);
       }, (error) => {
